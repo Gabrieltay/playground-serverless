@@ -1,0 +1,22 @@
+{
+  "name": "playground-serverless",
+  "version": "1.0.0",
+  "description": "- create inital boilerplate serverless create --template aws-nodejs",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "IS_OFFLINE=true sls offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrieltay/playground-serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.712.0"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.4.0"
+  }
+}
