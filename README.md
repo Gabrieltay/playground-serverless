@@ -38,12 +38,10 @@ Endpoints:
 Body:
 
 ```json
-[
-    {
-        "name": "Lego",
-        "price": "$59.90"
-    }
-]
+{
+    "name": "Lego",
+    "price": "$59.90"
+}
 ```
 
 ```text
